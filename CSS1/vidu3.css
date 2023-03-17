@@ -1,0 +1,13 @@
+h2{
+    font-size: 30;
+    color: blue;
+}
+b{
+    font-size: 22;
+    color: red;
+}
+button{
+    color: yellow;
+    background-color: palevioletred;
+    width: 50px; height: 30px;
+}

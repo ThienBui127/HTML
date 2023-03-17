@@ -1,0 +1,21 @@
+p{
+    color: red;
+    font-size: 20px;
+    font-style: italic;
+}
+.x{
+    color: blue;
+}
+/* 
+(bộ chọn) {
+    (tên thuộc tính): (giá trị);
+    (tên thuộc tính): (giá trị);
+    (tên thuộc tính): (giá trị);
+}
+(selector) {
+    (property_name): (value);
+    (property_name): (value);
+    (property_name): (value);
+    .(name-class){
+    }
+    */

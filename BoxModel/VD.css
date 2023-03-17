@@ -1,0 +1,18 @@
+.x{
+    background: lightgray;
+    color: green;
+    width: 200px;
+    height: 100px;
+   text-align: center;
+    border: 20px solid green;
+    padding: 100px 20px 100px 20px;
+   
+}
+p{
+    background-color: blue;
+    color: green;
+}
+/*
+padding: apx; => a a a a;
+padding: apx bpx => a b a b;
+padding: apx bpx cpx dpx; => trên phải dưới trái
