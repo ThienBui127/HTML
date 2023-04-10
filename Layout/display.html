@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!--display: quy định cách hiển thị của 1 thẻ-->
+<!--
+    + inline: quy định phần của thẻ chỉ vừa bằng nội dung (span,a,label), ko quy định được w,h
+    + block: quy định phần của thẻ là cả màn hình (thẻ cha), quy định được w,h
+    + inline-block: vừa có thể hiển thị trên cùng dòng như inline,
+                    lại có thể căn chỉnh được các giá trị như đã nêu ở trên giống như block (img)
+    + mỗi thẻ thì có sẵn dislay mặc định và có thể thay đổi được                
+-->
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    a{
+        display: block;
+    }
+.b1{
+    width: 300px;
+    height: 200px;
+    background: blue;
+    display: inline-block;
+}
+a.b1{
+    background: red;
+}
+p.b1{ background: yellow;}
+</style>
+<body>
+ <div class="b1"></div>
+ <a class="b1"></a>
+ <p class="b1"></p>
+    <hr>
+<a href="">Hello</a>
+<a href="">Xin Chào</a>
+<!--h2,h3,p có display là block-->
+<!--span, a có display là inline-->
+</body>
+</html>

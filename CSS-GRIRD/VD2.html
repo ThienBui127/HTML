@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .a{ 
+        display: grid;
+        grid-template-columns: repeat(5,7%) auto 7%;
+        /*repeat: viết gọn chia phần tử cho các ô bằng nhau*/
+        background: black;
+    }
+    .b{
+        text-align: center;
+        height: 50px ;
+        line-height: 50px;     
+        color: white;
+    }
+    .b:hover{
+        background: orange;
+    }
+    .a1{
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+    }
+    .b1{
+        border: 1px solid;
+        height: 500px;
+        text-align: center;
+    }
+
+    .a2{
+        display: grid;
+        grid-template-columns: 100%;
+
+    }
+    .b2{
+        border: 1px solid;
+        height: 50px;
+    }
+</style>
+<body>
+    <div class="a">
+        <div class="b">Logo</div>
+        <div class="b">Home</div>
+        <div class="b">About</div>
+        <div class="b">Projects</div>
+        <div class="b">Contacts</div>
+        <div ></div>
+        <div class="b">Login</div>
+    </div>
+    <div class="a1">
+        <div class="b1">
+            <p>Link</p>
+            <p>Link</p>
+            <p>Link</p>
+        </div>
+        <div class="b1"></div>
+        <div class="b1">
+            <div class="b1_1"></div>
+            <div class="b1_1"></div>
+        </div>
+    </div>
+    <div class="a2">
+        <div class="b2"></div>
+    </div>
+</body>
+</html>

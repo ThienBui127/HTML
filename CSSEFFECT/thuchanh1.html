@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--
+        Trong CSS, Combinator là các ký tự hoặc từ khóa được sử dụng để kết hợp các selector với nhau để xác định phần tử HTML mà chúng ta muốn chọn.
+
+Descendant combinator (space): chọn các phần tử con bên trong phần tử được chọn trước đó.
+
+ 
+
+Child combinator (>): chọn các phần tử con trực tiếp của phần tử được chọn trước đó.
+
+ 
+
+Adjacent sibling combinator (+): chọn phần tử ngay sau phần tử được chọn trước đó và cùng cấp với nó.
+
+ 
+
+General sibling combinator (~): chọn tất cả các phần tử cùng cấp với phần tử được chọn trước đó và đứng sau nó.
+
+Pseudo-element là một phần tử ảo được tạo ra bằng CSS để thêm các hiệu ứng hoặc phong cách cho một phần tử HTML. Các pseudo-element được định nghĩa bằng cách sử dụng hai dấu hai chấm (::) sau tên của phần tử.
+
+::before là một pseudo-element được sử dụng để thêm nội dung vào phần tử đầu tiên của một phần tử HTML. Tương tự, ::after là một pseudo-element được sử dụng để thêm nội dung vào phần tử cuối cùng của một phần tử HTML.
+    -->
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background: red;
+            transition: 2s;
+            
+           
+            
+        }
+        .out:hover .box{
+            transform: translateX(200px) rotate(180deg) ;
+           
+           border-radius: 50%;
+            
+        }
+    .out {
+        height: 200px;
+        border: 1px solid;
+    }
+        
+    </style>
+</head>
+<body>
+    <div class="out">
+   <div class="box"></div>
+</div>
+</body>
+<!--dấu phẩy, dấu cách, dấu >-->
+</html>
